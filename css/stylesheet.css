@@ -1,7 +1,3 @@
-/* Proudly created by BlexieKing */
-/* https://www.spigotmc.org/members/blexieking.168027 */
-
-
 /* Main */
 
 * {
@@ -42,7 +38,7 @@ h3 {
 }
 
 .btn:hover {
-	background: #011627;
+	background: #12100E;
 }
 
 /* Header */
@@ -70,7 +66,7 @@ h3 {
 	right: 0;
 	flex-direction: column;
 	color: #FDFFFC;
-	background-color: #011627;
+	background-color: #12100E;
 	font-size: 1em;
 	padding: 20px;
 }
@@ -110,7 +106,7 @@ h3 {
 }
 .nav {
 	width: 100%;
-	background-color: #011627;
+	background-color: #12100E;
 	box-shadow: 0 2px rgba(105, 106, 109, 0.5);
 	color: #FDFFFC;
 	display: flex;
@@ -315,13 +311,15 @@ hr {
 
 .owner,
 .manager,
-.admin {
+.admin,
+.other {
 	padding: 12px;
 }
 
-.owner {background-color: rgba(244, 65, 65, .5);}
+.owner   {background-color: rgba(244, 65, 65, .5);}
 .manager {background-color: rgba(66, 134, 244, .5);}
-.admin {background-color: rgba(59, 211, 42, .5);}
+.admin   {background-color: rgba(59, 211, 42, .5);}
+.other   {background-color: rgba(207, 72, 146, 0.5);}
 
 /* Announcement */
 
@@ -376,7 +374,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	background: #011627;
+	background: #12100E;
 	padding: 30px 50px;
 }
 
@@ -480,3 +478,4 @@ footer a {
 		justify-content: space-between;
 	}
 }
+/* Stylesheet created by BlexieKing (https://www.spigotmc.org/members/blexieking.168027) */
