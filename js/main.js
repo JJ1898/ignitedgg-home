@@ -1,4 +1,3 @@
-// Do not mess with this file unless you know what you're doing :P
 
 $(document).on('click', 'a[href^="#"]', function (e) {
 	e.preventDefault();
@@ -8,7 +7,7 @@ $(document).on('click', 'a[href^="#"]', function (e) {
 	}, 900);
 });
 
-// This is for the click to copy
+//Click-To-Copy Functionality (Unused)
 let t;
 $(document).ready(()=>{
 	t = $(".ip").html();
