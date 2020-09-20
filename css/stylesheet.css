@@ -43,7 +43,7 @@ h3 {
 
 /* Header */
 
-/*NAV*/
+/*Nav*/
 
 .nav-items a:not(:first-child) {
 	display: none;
@@ -145,7 +145,7 @@ h3 {
 }
 
 
-/*NAV*/
+/*Hero*/
 
 
 .hero {
@@ -155,6 +155,8 @@ h3 {
 	url("../img/busan.png") no-repeat center center;
 	background-size: cover;
 	text-align: center;
+	background-attachment: fixed;
+
 
 	display: flex;
 	align-items: center;
@@ -214,7 +216,7 @@ h3 {
 	letter-spacing: 1.2px;
 }
 
-/* Our Games */
+/* Our Stuff */
 
 #games {
 	color: #FDFFFC;
@@ -293,6 +295,12 @@ hr {
 
 .staff-team > div:hover {
 	transform: scale(1.02);
+	-webkit-filter: brightness(70%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .staff-team h3 {
