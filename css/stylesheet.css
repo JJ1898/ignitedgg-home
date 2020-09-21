@@ -332,6 +332,12 @@ hr {
 .staff-team>div .container {
 	position: relative;
 }
+.staff img{
+	align-self: center;
+	border: 0px solid #111;
+	border-radius: 2px;
+	box-shadow: 0 0 2px #111;
+}
 
 .staff-team .staff-overlay {
 	position: absolute;
@@ -363,9 +369,6 @@ hr {
 .container:hover .staff-overlay {
 	opacity: .9;
 	visibility: visible;
-}
-.container:hover .staff-overlay .staff-team-teams {
-	opacity: .25;
 }
 
 .staff-team h3 {
