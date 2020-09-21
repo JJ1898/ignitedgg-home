@@ -348,12 +348,12 @@ hr {
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #FDFFFC;
+	background-color: #12100E;
 	pointer-events: none;
 }
 
 .staff-overlay .ovl-text {
-	color: #12100E;
+	color: #FDFFFC;
 	font-size: 1em;
 	position: absolute;
 	top: 50%;
