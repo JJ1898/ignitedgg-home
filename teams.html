@@ -5,7 +5,7 @@
     <title>Ignited.GG | Official Website</title>
     <meta name="description"
         content="Ignited.GG provides a tight-knit video game community while also professional-looking productions of esports competitions.">
-    <meta name="keywords" content="Overwatch, Valorant, Discord, Production, Broadcast, esports, competitions">
+    <meta name="keywords" content="Overwatch, Valorant, Among Us, Discord, Production, Broadcast, esports, competitions">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
         }
     </script>
 </head>
-
+<button onclick="topFunction()" class="btn" id="scrolltop">Back to<br />Top</button>
 <body>
     <header>
         <div class="nav">
@@ -34,32 +34,45 @@
                 </a>
                 <a href="./index.html#main">
                     <li class="h">
-                        <div class="overlay"></div>
+                        <div class="nav-overlay"></div>
                         Home
                     </li>
                 </a>
-                <a href="./teams.html">
+
+                <a href="./index.html#announcement">
                     <li class="h">
-                        <div class="overlay"></div>
+                        <div class="nav-overlay"></div>
+                        NEWS
+                    </li>
+                </a>
+                <a href="#main">
+                    <li class="h">
+                        <div class="nav-overlay"></div>
                         Teams
                     </li>
                 </a>
                 <div class="log"><img alt="Ignited.GG Logo" class="logo" src="img/new500px.png"></div>
                 <a href="./index.html#games">
                     <li class="h">
-                        <div class="overlay"></div>
+                        <div class="nav-overlay"></div>
                         About
+                    </li>
+                </a>
+                <a href="./index.html#staff">
+                    <li class="h">
+                        <div class="nav-overlay"></div>
+                        Staff
                     </li>
                 </a>
                 <a href="./index.html#contact">
                     <li class="h">
-                        <div class="overlay"></div>
+                        <div class="nav-overlay"></div>
                         Contact
                     </li>
                 </a>
             </ul>
             <div class="mnav" id="mnav">
-                <a href="./index.html#main">
+                <a href="#main">
                     <li class="i">
                         Home
                     </li>
@@ -69,12 +82,12 @@
                         Teams
                     </li>
                 </a>
-                <a href="./teams.html#games">
+                <a href="#games">
                     <li class="i">
                         About
                     </li>
                 </a>
-                <a href="./index.html#contact">
+                <a href="#contact">
                     <li class="i">
                         Contact
                     </li>
@@ -85,26 +98,31 @@
 
         <div class="hero" id="main">
             <h1>Ignited Teams</h1>
-            <p class="info">Embers, Kindling, SparX</p>
+            <p class="info">
+                <a href="#embersow" class="btn">Embers (OW)</a>
+                <a href="#embersval" class="btn disabled">Embers (VAL)</a>
+                <a href="#kindling" class="btn">Kindling (OW)</a>
+                <a href="#sparx" class="btn">SparX (OW)</a> </p>
         </div>
     </header>
 
-    <div id="games">
-        <div id="staff"> <!-- Owner = Red, Admin = Green, Manager = Blue, Other = Purple -->
+    <div class="games" id="embersow">
+        <div id="staff">
+            <!-- Owner = Red, Admin = Green, Manager = Blue, Other = Purple -->
             <div class="staff">
-                <h2>Ignited Embers</h2>
+                <h2>Ignited Embers (Overwatch)</h2>
                 <div class="staff-team staff-team-teams">
                     <div>
                         <h3>AndroidV</h3>
                         <div class="manager">Tank</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="AndroidV Logo"
                             src="https://cdn.discordapp.com/avatars/236596924528984064/850b96dfe113d6881f251d8102a894ad.png?size=1024">
                     </div>
 
                     <div>
                         <h3>TorrentFury</h3>
                         <div class="admin">Support</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="TorrentFury Logo"
                             src="https://cdn.discordapp.com/avatars/194981632913047553/d3ba7ed6466d3b729a8071594d7f6536.png?size=1024">
                     </div>
 
@@ -122,7 +140,7 @@
             </p>
         </div>
     </div>
-    <div id="games">
+    <div class="games">
         <div id="staff">
             <div class="staff">
                 <h2>Ignited Kindling</h2>
@@ -130,49 +148,49 @@
                     <div>
                         <h3>MuppetMurder</h3>
                         <div class="manager">Tank</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="MuppetMurder Logo"
                             src="https://cdn.discordapp.com/avatars/349351742623842306/3fd3e0f1b74675af0fddc36563b9e5fa.png?size=1024">
                     </div>
 
                     <div>
                         <h3>BeastBwithin</h3>
                         <div class="manager">Tank</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="BeastBwithin Logo"
                             src="https://cdn.discordapp.com/avatars/530548069717245962/2940d94ed4a43416f0737b9790fe666e.png?size=1024">
                     </div>
 
                     <div>
                         <h3>PikaBandito</h3>
                         <div class="manager">Tank</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="PikaBandito Logo"
                             src="https://cdn.discordapp.com/avatars/95640699768156160/d5b457f2c2c9940495d7fceca818f42d.png?size=1024">
                     </div>
 
                     <div>
                         <h3>McCreeIsMine</h3>
                         <div class="owner">Damage</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="McCreeIsMine Logo"
                             src="https://cdn.discordapp.com/avatars/359358980990173206/a33a53f7093edf847ae387e96a596d08.png?size=1024">
                     </div>
 
                     <div>
                         <h3>Pomkoo</h3>
                         <div class="owner">Damage</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="Pomkoo Logo"
                             src="https://cdn.discordapp.com/avatars/193060248859312128/512925390cd060262658681159f15a08.png?size=1024">
                     </div>
 
                     <div>
                         <h3>MooEELCoo</h3>
                         <div class="manager">Support</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="MooEELCoo Logo"
                             src="https://cdn.discordapp.com/avatars/450133387915821057/ccec78b06209f636724927519742a222.png?size=1024">
                     </div>
 
                     <div>
                         <h3>Moonblaze</h3>
                         <div class="manager">Support</div>
-                        <img alt="MyServer Staff Member"
+                        <img alt="Moonblaze Logo"
                             src="https://cdn.discordapp.com/avatars/272582128250781706/4f4b4153a6b0331b7572fe050e0739c5.png?size=1024">
                     </div>
                 </div>
@@ -189,7 +207,7 @@
             </p>
         </div>
     </div>
-    <div id="games">
+    <div class="games">
         <div id="staff">
             <div class="staff">
                 <h2>Ignited SparX</h2>

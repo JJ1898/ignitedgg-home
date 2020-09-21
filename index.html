@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Ignited.GG | Official Website</title>
-	<meta name="description" content="Ignited.GG provides a tight-knit video game community and professional-looking productions of esports competitions.">
+	<meta name="description"
+		content="Ignited.GG provides a tight-knit video game community and professional-looking productions of esports competitions.">
 	<meta name="keywords" content="Overwatch, Valorant, Discord, Production, Broadcast, esports, competitions">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
@@ -14,7 +16,7 @@
 	<script type="text/javascript">
 		function mobile() {
 			var bars = document.getElementById("mnav");
-			if(bars.className === "mnav") {
+			if (bars.className === "mnav") {
 				bars.className += " responsive";
 			} else {
 				bars.className = "mnav";
@@ -22,48 +24,85 @@
 		}
 	</script>
 </head>
+<button onclick="topFunction()" class="btn" id="scrolltop">Back to<br />Top</button>
 <body>
 	<header>
 		<div class="nav">
 			<ul class="nav-items" id="nav-items">
-				<a><li onclick="mobile()" class="icon fa fa-bars fa-2x"></li></a>
-				<a href="#main"><li class="h">
-					<div class="overlay"></div>
-					Home
-				</li></a>
-				<a href="./teams.html"><li class="h">
-					<div class="overlay"></div>
-					Teams
-				</li></a>
+				<a>
+					<li onclick="mobile()" class="icon fa fa-bars fa-2x"></li>
+				</a>
+				<a href="#main">
+					<li class="h">
+						<div class="nav-overlay"></div>
+						Home
+					</li>
+				</a>
+				<a href="#announcement">
+					<li class="h">
+						<div class="nav-overlay"></div>
+						News
+					</li>
+				</a>
+				<a href="./teams.html">
+					<li class="h">
+						<div class="nav-overlay"></div>
+						Teams
+					</li>
+				</a>
 				<div class="log"><img alt="Ignited.GG Logo" class="logo" src="img/new500px.png"></div>
-				<a href="#games"><li class="h">
-					<div class="overlay"></div>
-					About
-				</li></a>
-				<a href="#contact"><li class="h">
-					<div class="overlay"></div>
-					Contact
-				</li></a>
+				<a href="#games">
+					<li class="h">
+						<div class="nav-overlay"></div>
+						About
+					</li>
+				</a>
+				<a href="#staff">
+					<li class="h">
+						<div class="nav-overlay"></div>
+						Staff
+					</li>
+				</a>
+				<a href="#contact">
+					<li class="h">
+						<div class="nav-overlay"></div>
+						Contact
+					</li>
+				</a>
 			</ul>
 			<div class="mnav" id="mnav">
-				<a href="#main"><li class="i">
-					Home
-				</li></a>
-				<a href="./teams.html"><li class="i">
-					Teams
-				</li></a>
-				<a href="#games"><li class="i">
-					About
-				</li></a>
-				<a href="#contact"><li class="i">
-					Contact
-				</li></a>
+				<a href="#main">
+					<li class="i">
+						Home
+					</li>
+				</a>
+				<a href="#announcement">
+					<li class="i">
+						News
+					</li>
+				</a>
+				<a href="./teams.html">
+					<li class="i">
+						Teams
+					</li>
+				</a>
+				<a href="#games">
+					<li class="i">
+						About
+					</li>
+				</a>
+				<a href="#contact">
+					<li class="i">
+						Contact
+					</li>
+				</a>
 			</div>
 		</div>
 
-		<div class="hero cms-editable" id="main">
+		<div class="hero" id="main">
 			<h1>Ignited.GG</h1>
-			<p class="info cms-editable">Join our Discord at <span class="ip">go.ignited.gg/discord</span></p>
+			<p class="info cms-editable">Join our Discord at <a class="ip" href="https://go.ignited.gg/discord"
+					target="_blank"><b>go.ignited.gg/discord</b></a></p>
 		</div>
 	</header>
 	<div class="main">
@@ -72,7 +111,10 @@
 				<i class="fa fa-book fa-4x"></i>
 				<span>
 					<h3>OUR HISTORY</h3>
-					<p>Ignited.GG started as a team of six random players grouped together during <a href="https://elohell.gg/" target="_blank" style="color: black;">Elo Hell's</a> Git Gud tournament, known as the Ignited Embers. We have since grown substantially, and are now home to a vibrant community alongside a total three Overwatch rosters and one VALORANT roster. </p>
+					<p>Ignited.GG started as a team of six random players grouped together during <a
+							href="https://elohell.gg/" target="_blank" style="color: black;">Elo Hell's</a> Git Gud
+						tournament, known as the Ignited Embers. We have since grown substantially, and are now home to
+						a vibrant community alongside a total three Overwatch rosters and one VALORANT roster. </p>
 				</span>
 			</div>
 			<div>
@@ -86,16 +128,36 @@
 				<a href="https://go.ignited.gg/twitch" target="_blank"><i class="fa fa-twitch fa-4x"></i></a>
 				<span>
 					<h3>OUR PRODUCTIONS</h3>
-					<p>From the start, our goals included providing exposure for our players, coaching staff, and casting talent. The best way to do so is to put them on-air. Our broadcast talent, both on-camera and behind the scenes, work hard to ensure that our broadcasts maintain a high production value.</p>
+					<p>From the start, our goals included providing exposure for our players, coaching staff, and
+						casting talent. The best way to do so is to put them on-air. Our broadcast talent, both
+						on-camera and behind the scenes, work hard to ensure that our broadcasts maintain a high
+						production value.</p>
 				</span>
 			</div>
 		</div>
-		<div id="games">
+
+		<div id="announcement">
+			<div class="an-img">
+				<div class="an-t">
+					<h2>LATEST NEWS</h2>
+					<p>
+						<b>A New Look</b>
+						<br><br>
+						Welcome to Ignited.GG
+						<br> <br>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="games" id="games">
 			<h2>WHAT WE DO</h2>
 			<div class="game e">
 				<div>
 					<h3>COMPETITION</h3>
-					<p>Competition is in our DNA. Ignited.GG fosters three amateur Overwatch competitive rosters, Ignited Embers, Ignited Kindling, and Ignited SparX, and one VALORANT roster, also known as Ignited Embers. </p>
+					<p>Competition is in our DNA. Ignited.GG fosters three amateur Overwatch competitive rosters,
+						Ignited Embers, Ignited Kindling, and Ignited SparX, and one VALORANT roster, also known as
+						Ignited Embers. </p>
 				</div>
 				<img alt="MyServer SkyBlock Server" class="gimg a" src="img/prod.png">
 			</div>
@@ -105,7 +167,10 @@
 			<div class="game f">
 				<div>
 					<h3>PRODUCTION</h3>
-					<p>Nisi magna culpa consequat pariatur velit tempor est aute veniam ullamco. Nulla dolor ea mollit proident tempor ut cillum culpa. Pariatur Lorem est aliqua et commodo aliqua sit nostrud et anim laboris esse ea quis. Minim sit nulla sint cupidatat culpa. Pariatur id eu Lorem amet eu id. Sit velit enim commodo in sint.</p>
+					<p>Nisi magna culpa consequat pariatur velit tempor est aute veniam ullamco. Nulla dolor ea mollit
+						proident tempor ut cillum culpa. Pariatur Lorem est aliqua et commodo aliqua sit nostrud et anim
+						laboris esse ea quis. Minim sit nulla sint cupidatat culpa. Pariatur id eu Lorem amet eu id. Sit
+						velit enim commodo in sint.</p>
 				</div>
 				<img alt="MyServer Factions Server" class="gimg b" src="img/prod.png">
 			</div>
@@ -119,86 +184,98 @@
 				</div>
 				<img alt="MyServer KitPvP Server" class="gimg c" src="img/prod.png">
 			</div>
-
 		</div>
-		<div id="staff"> <!-- Owner = Red, Admin = Green, Manager = Blue, Other = Purple -->
+
+		<div id="staff">
+			<!-- Owner = Red, Admin = Green, Manager = Blue, Other = Purple -->
 			<div class="staff">
 				<h2>STAFF</h2>
 				<div class="staff-team">
 					<div class="container">
 						<h3>Samterr</h3>
 						<div class="owner">Founder</div>
-						<img alt="Samterr Logo" src="https://cdn.discordapp.com/avatars/376806222243823647/01b928084c0b8f9acc4e0e9204d95cd4.png?size=1024">
-						<div class="staff-overlay"><div class="ovl-text">Samterr founded the Ignited.GG server and was one of the original players on Embers. He currently acts as the head of the organization.</div></div>
+						<img alt="Samterr Logo"
+							src="https://cdn.discordapp.com/avatars/376806222243823647/01b928084c0b8f9acc4e0e9204d95cd4.png?size=1024">
+						<div class="staff-overlay">
+							<div class="ovl-text">Samterr founded the Ignited.GG server and was one of the original
+								players on Embers. He currently acts as the head of the organization.</div>
+						</div>
 					</div>
 
 					<div class="container">
 						<h3>TorrentFury</h3>
 						<div class="owner">Founder</div>
-						<img alt="TorrentFury Logo" src="https://cdn.discordapp.com/avatars/194981632913047553/d3ba7ed6466d3b729a8071594d7f6536.png?size=1024">
-						<div class="staff-overlay"><div class="ovl-text">TorrentFury was one of the original members of Embers. He works as part of the admin team to guide the direction of the organization.</div></div>
+						<img alt="TorrentFury Logo"
+							src="https://cdn.discordapp.com/avatars/194981632913047553/d3ba7ed6466d3b729a8071594d7f6536.png?size=1024">
+						<div class="staff-overlay">
+							<div class="ovl-text">TorrentFury was one of the founding members of Embers. He works as
+								part of the admin team to guide the direction of the organization.</div>
+						</div>
 					</div>
 
 					<div class="container">
 						<h3>elPikaBandito</h3>
 						<div class="owner">Founder</div>
-						<img alt="elPikaBandito Logo" src="https://cdn.discordapp.com/avatars/95640699768156160/d5b457f2c2c9940495d7fceca818f42d.png?size=1024">
-						<div class="staff-overlay"><div class="ovl-text">TorrentFury was one of the original members of Embers. He works as part of the admin team to guide the direction of the organization.</div></div>
+						<img alt="elPikaBandito Logo"
+							src="https://cdn.discordapp.com/avatars/95640699768156160/d5b457f2c2c9940495d7fceca818f42d.png?size=1024">
+						<div class="staff-overlay">
+							<div class="ovl-text">elPikaBandito was one of the founding members of Embers. He works as
+								part of the admin team to meet the technology needs of the organization.</div>
+						</div>
 
 					</div>
 
-					<div>
+					<div class="container">
 						<h3>V1nson</h3>
 						<div class="admin">Admin</div>
-						<img alt="V1nson Logo" src="https://cdn.discordapp.com/avatars/160046583872880640/80c138a00ee4eb3c269a9b838bd24c32.png?size=1024">
+						<img alt="V1nson Logo"
+							src="https://cdn.discordapp.com/avatars/160046583872880640/80c138a00ee4eb3c269a9b838bd24c32.png?size=1024">
+						<div class="staff-overlay">
+							<div class="ovl-text">V1nson was an early addition to Ignited Embers. He works as part of
+								the admin team to orchestrate production and communication with other organizations.
+							</div>
+						</div>
 					</div>
 
-					<div>
+					<div class="container">
 						<h3>MooEELCoo</h3>
 						<div class="manager">Moderator</div>
-						<img alt="MooEELCoo Logo" src="https://cdn.discordapp.com/avatars/450133387915821057/ccec78b06209f636724927519742a222.png?size=1024">
+						<img alt="MooEELCoo Logo"
+							src="https://cdn.discordapp.com/avatars/450133387915821057/ccec78b06209f636724927519742a222.png?size=1024">
 					</div>
 
 					<div>
 						<h3>ChristGlory</h3>
 						<div class="manager">Moderator</div>
-						<img alt="ChristGlory Logo" src="https://cdn.discordapp.com/avatars/162051967101698049/2c57d280444f8f7a5225757c419760d6.png?size=1024">
+						<img alt="ChristGlory Logo"
+							src="https://cdn.discordapp.com/avatars/162051967101698049/2c57d280444f8f7a5225757c419760d6.png?size=1024">
 					</div>
 
 					<div>
 						<h3>NocturnalEmu</h3>
 						<div class="manager">Moderator</div>
-						<img alt="NocturnalEmu Logo" src="https://cdn.discordapp.com/avatars/461759801018286103/ddf7e65b4bc21ba7e9e0b28a7862be0a.png?size=1024">
+						<img alt="NocturnalEmu Logo"
+							src="https://cdn.discordapp.com/avatars/461759801018286103/ddf7e65b4bc21ba7e9e0b28a7862be0a.png?size=1024">
 					</div>
 
 					<div>
 						<h3>Aliaid32</h3>
 						<div class="other">Event Admin</div>
-						<img alt="Aliaid32 Logo" src="https://cdn.discordapp.com/avatars/138352087237918721/a3984f51cb8f5a878a97295b8a584ec5.png?size=1024">
+						<img alt="Aliaid32 Logo"
+							src="https://cdn.discordapp.com/avatars/138352087237918721/a3984f51cb8f5a878a97295b8a584ec5.png?size=1024">
 					</div>
 
 					<div>
 						<h3>tw0nder</h3>
 						<div class="other">Valorant Lead</div>
-						<img alt="tw0nder Logo" src="https://cdn.discordapp.com/avatars/167408595598573569/4df2da1c6706d6dcedd1acc738a4ae42.png?size=1024">
+						<img alt="tw0nder Logo"
+							src="https://cdn.discordapp.com/avatars/167408595598573569/4df2da1c6706d6dcedd1acc738a4ae42.png?size=1024">
 					</div>
 
 				</div>
 			</div>
 		</div>
-		<div id="announcement">
-			<div class="an-img">
-				<h2>LATEST NEWS</h2>
-				<p class="an-t">
-					<b>A New Look</b>
-					<br><br>
-					Welcome to Ignited.GG
-					<br> <br>
 
-				</p>
-				<a href="#main" class="btn">Back to Top</a>
-			</div>
-		</div>
 		<div id="contact">
 			<h2>CONTACT US</h2>
 			<p>Email - <a href="mailto:contact@ignitedember.info">contact@ignitedember.info</a></p>
@@ -214,6 +291,7 @@
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
 	<script src="js/main.js" type="text/javascript"></script>
 </body>
+
 </html>
 
 <!-- Template created by Billy (https://bybilly.uk) -->

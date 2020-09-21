@@ -29,3 +29,23 @@ $(document).on("click",".ip",()=>{
 		copy.parentNode.removeChild(copy);
 	},1000);
 });
+
+//Back to Top Button (Floating)
+var topbutton = document.getElementById("scrolltop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    topbutton.style.display = "inline-block";
+  } else {
+    topbutton.style.display = "none";
+  }
+}
+
+// Scroll to the top of the document on click
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
