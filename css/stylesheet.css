@@ -76,7 +76,6 @@ h3 {
 	padding: 5px;
 }
 
-
 .nav-items {
 	display: flex;
 	justify-content: space-between;
@@ -86,24 +85,29 @@ h3 {
 	padding: 0;
 	align-items: center;
 }
+
 .mnav {
 	display: none;
 }
+
 .log {
 	width: 100%;
 	text-align: center;
 	padding-bottom: 5px;
 	order: -1;
 }
+
 .logo {
 	height: 100px;
 	width: 100px;
 	transition-duration: 0.5s;
 	margin: 0 40px;
 }
+
 .logo:hover {
 	transform: scale(1.05);
 }
+
 .nav {
 	width: 100%;
 	background-color: #12100E;
@@ -115,6 +119,7 @@ h3 {
 	align-items: center;
 	z-index: 9;
 }
+
 .h {
 	display: flex;
 	align-items: center;
@@ -144,28 +149,21 @@ h3 {
 	height: 100%;
 }
 
-
 /*Hero*/
-
 
 .hero {
 	height: 50vh;
 	width: 100%;
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-	url("../img/busan.png") no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/busan.png") no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	background-attachment: fixed;
-
-
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-
 	color: #FDFFFC;
 }
-
 
 .info {
 	font-size: 1.3em;
@@ -238,8 +236,7 @@ h3 {
 	padding: 40px 50px;
 }
 
-#games h2,
-.game h3 {
+#games h2, .game h3 {
 	letter-spacing: 1.2px;
 }
 
@@ -265,6 +262,7 @@ hr {
 }
 
 /* Staff */
+
 .staff-team {
 	display: flex;
 	justify-content: space-around;
@@ -281,10 +279,10 @@ hr {
 	margin-top: 0;
 }
 
-.staff-team > div {
+.staff-team>div {
 	padding: 10px;
 	margin: 5px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	color: #FDFFFC;
 	text-align: center;
 	transition: all ease 0.3s;
@@ -293,14 +291,56 @@ hr {
 	z-index: 5;
 }
 
-.staff-team > div:hover {
+.staff-team>div:hover {
 	transform: scale(1.02);
-	-webkit-filter: brightness(70%);
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.staff-team-teams>div:hover {
+	transform: scale(1.15);
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.staff-team>div .container {
+	position: relative;
+}
+
+.staff-team .staff-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #FDFFFC;
+}
+
+.staff-overlay .ovl-text {
+	color: #12100E;
+	font-size: 1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.container:hover .staff-overlay {
+	opacity: 1;
+	z-index: 6;
 }
 
 .staff-team h3 {
@@ -313,21 +353,40 @@ hr {
 	margin-top: 20px;
 }
 
-.ma {width: 78%; background: #f44141;}
-.mb {width: 96%; background: #33af33;}
-.mc {width: 98%; background: #4286f4;}
+.ma {
+	width: 78%;
+	background: #f44141;
+}
 
-.owner,
-.manager,
-.admin,
-.other {
+.mb {
+	width: 96%;
+	background: #33af33;
+}
+
+.mc {
+	width: 98%;
+	background: #4286f4;
+}
+
+.owner, .manager, .admin, .other {
 	padding: 12px;
 }
 
-.owner   {background-color: rgba(244, 65, 65, 0.5);}
-.manager {background-color: rgba(66, 134, 244, 0.5);}
-.admin   {background-color: rgba(59, 211, 42, 0.5);}
-.other   {background-color: rgba(207, 72, 146, 0.5);}
+.owner {
+	background-color: rgba(244, 65, 65, 0.5);
+}
+
+.manager {
+	background-color: rgba(66, 134, 244, 0.5);
+}
+
+.admin {
+	background-color: rgba(59, 211, 42, 0.5);
+}
+
+.other {
+	background-color: rgba(207, 72, 146, 0.5);
+}
 
 /* Announcement */
 
@@ -338,18 +397,22 @@ hr {
 
 .an-img {
 	width: 100%;
-	background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.35)),
-	url("../img/rialto.png") no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.45)), url("../img/rialto.png") no-repeat center center;
+	filter: blur(8px);
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 100px 50px;
+}
+
+.an-img h2 {
+	filter: none;
 }
 
 .an-t {
 	font-size: 0.95em;
 	line-height: 1.5em;
 	margin: 30px 30px;
-	background: rgba(255,255,255,0.05);
+	background: rgba(255, 255, 255, 0.05);
 	padding: 20px;
 	border-top-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -395,8 +458,6 @@ footer a {
 	text-decoration: underline;
 }
 
-
-
 /* RESPONSIVE LAYOUT */
 
 @media(min-width: 900px) {
@@ -417,10 +478,7 @@ footer a {
 	.nav-items {
 		justify-content: center;
 	}
-
 	/*END NAV*/
-
-
 	#contact p {
 		font-size: 1.5em;
 	}
@@ -453,7 +511,6 @@ footer a {
 	h2 {
 		font-size: 55px;
 	}
-
 	.h {
 		padding: 0 6px;
 		margin-right: 5px;
@@ -468,22 +525,20 @@ footer a {
 	.staff-team img {
 		width: 170px;
 	}
-	.staff-team > div {
+	.staff-team>div {
 		padding: 13px;
 		width: auto;
 		font-size: 18px;
 	}
-
 	.staff {
 		padding: 40px 0;
 	}
-
 	.an-t {
 		font-size: 1.15em;
 	}
-
 	footer {
 		justify-content: space-between;
 	}
 }
+
 /* Stylesheet created by BlexieKing (https://www.spigotmc.org/members/blexieking.168027) */
