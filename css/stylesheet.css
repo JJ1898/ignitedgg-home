@@ -327,11 +327,6 @@ hr {
 
 .staff-team-teams>div:hover {
 	transform: scale(1.15);
-	-webkit-transition: all .5s ease;
-	-moz-transition: all .5s ease;
-	-o-transition: all .5s ease;
-	-ms-transition: all .5s ease;
-	transition: all .5s ease;
 }
 
 .staff-team>div .container {
@@ -350,6 +345,7 @@ hr {
 	transition: .5s ease;
 	background-color: #12100E;
 	pointer-events: none;
+	visibility: hidden;
 }
 
 .staff-overlay .ovl-text {
@@ -365,7 +361,11 @@ hr {
 }
 
 .container:hover .staff-overlay {
-	opacity: 1;
+	opacity: .9;
+	visibility: visible;
+}
+.container:hover .staff-overlay .staff-team-teams {
+	opacity: .25;
 }
 
 .staff-team h3 {
