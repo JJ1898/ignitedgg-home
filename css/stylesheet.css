@@ -430,9 +430,9 @@ hr {
 	background-attachment: fixed;
 	padding: 100px 50px;
 }
-.an-img .val{
+.an-val{
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.65)), url("../img/rialto.jpg") no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.65)), url("../img/haven.jpg") no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 100px 50px;
