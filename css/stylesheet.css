@@ -439,19 +439,16 @@ hr {
 }
 
 .an-t {
+	width: 75%;
 	font-size: 0.95em;
 	line-height: 1.5em;
-	margin: 30px 30px;
+	margin: auto;
 	background: rgba(34, 34, 34, 0.144);
 	padding: 20px;
 	border-top-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	filter: none;
 }
 
-.an-t h2 {
-	background: none;
-}
 
 /* Contact Us */
 
