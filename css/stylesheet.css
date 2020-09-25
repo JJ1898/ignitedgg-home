@@ -573,6 +573,7 @@ footer a {
 	}
 	.an-t {
 		font-size: 1.15em;
+		width: 100%;
 	}
 	footer {
 		justify-content: space-between;
