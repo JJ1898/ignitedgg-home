@@ -32,6 +32,7 @@
 
 		gtag('config', 'UA-128869131-2');
 	</script>
+	<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 </head>
 <button onclick="topFunction()" class="btn" id="scrolltop">Back to<br />Top</button>
 
@@ -169,6 +170,16 @@
 							<p>
 							<a href="https://go.ignited.gg/HolidayHowdownRules" target="_blank" class="btn">Holiday Hoedown Rules</a>
 							<a href="https://go.ignited.gg/HHTeam" target="_blank" class="btn">Holiday Hoedown Team Signup</a></p>
+							<div id="tplayer"></div>
+							<script type="text/javascript">
+								var options = {
+								  width: 768,
+								  height: 432,
+								  channel: "ignited_esports",
+								};
+								var player = new Twitch.Player("tplayer", options);
+								player.setVolume(0.25);
+							  </script>
 							<p> Remember to check up with us 
 								regularly here at Ignited.gg, and join our <a href="https://go.ignited.gg/discord" target="_blank" style="text-decoration: underline;">Discord</a> 
 								server! You'll get updates as they come, as well as the opportunity to join regular community events such as Pick-Up-Games or movie nights.
