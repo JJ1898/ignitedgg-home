@@ -25,7 +25,14 @@ h2 {
 }
 
 h3 {
+	font-size: 1.5em;
 	margin: 25px 0 0 0;
+	text-align: center;
+}
+
+.goodbye p {
+	width: 80%;
+	padding: 15px;
 }
 
 .btn {
